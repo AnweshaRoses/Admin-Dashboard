@@ -1,5 +1,8 @@
 import "./sidebar.css"
-import {LineStyle, Timeline, TrendingUp}from '@material-ui/icons';
+import {
+LineStyle, Timeline, TrendingUp,PersonOutline,ShoppingBasket,AttachMoney,Equalizer,AlternateEmailOutlined,MessageOutlined,SendOutlined,
+WhatsApp,HomeWorkOutlined,ReportProblemOutlined,GroupAddOutlined
+}from '@material-ui/icons';
 
 export default function Sidebar() {
     return (
@@ -23,70 +26,65 @@ export default function Sidebar() {
                     </ul>
                 </div>
                 <div className="sidebarmenu">
-                    <h3 className="sidebartitle">Dashboard</h3>
+                    <h3 className="sidebartitle">Quick Menu</h3>
                     <ul className="sidebarlist">
                         <li className="sidebarlistitem">
-                            <LineStyle className="sidebaricon" />
-                            home
+                            <PersonOutline className="sidebaricon" />
+                            Users
                         </li>
                         <li className="sidebarlistitem">
-                            <Timeline className="sidebaricon"/>
-                            Analytics
+                            <ShoppingBasket className="sidebaricon"/>
+                            Products
                         </li>
                         <li className="sidebarlistitem">
-                            <TrendingUp className="sidebaricon"/>
-                            Sales
+                            <AttachMoney className="sidebaricon"/>
+                            Transactions
+                        </li>
+                        <li className="sidebarlistitem">
+                            <Equalizer className="sidebaricon"/>
+                            Reports
                         </li>
                     </ul>
                 </div>
                 <div className="sidebarmenu">
-                    <h3 className="sidebartitle">Dashboard</h3>
+                    <h3 className="sidebartitle">Notifications</h3>
                     <ul className="sidebarlist">
                         <li className="sidebarlistitem">
-                            <LineStyle className="sidebaricon" />
-                            home
+                            <AlternateEmailOutlined className="sidebaricon" />
+                            Mail
                         </li>
                         <li className="sidebarlistitem">
-                            <Timeline className="sidebaricon"/>
-                            Analytics
+                            <MessageOutlined className="sidebaricon"/>
+                            Feedback
                         </li>
                         <li className="sidebarlistitem">
-                            <TrendingUp className="sidebaricon"/>
-                            Sales
+                            <SendOutlined className="sidebaricon"/>
+                            Messages
+                        </li>
+                        <li className="sidebarlistitem">
+                            <WhatsApp className="sidebaricon"/>
+                            Contact Clients
                         </li>
                     </ul>
                 </div>
                 <div className="sidebarmenu">
-                    <h3 className="sidebartitle">Dashboard</h3>
+                    <h3 className="sidebartitle">Quick Access</h3>
                     <ul className="sidebarlist">
                         <li className="sidebarlistitem">
-                            <LineStyle className="sidebaricon" />
-                            home
+                            <HomeWorkOutlined  className="sidebaricon" />
+                            Manage
                         </li>
                         <li className="sidebarlistitem">
                             <Timeline className="sidebaricon"/>
                             Analytics
                         </li>
                         <li className="sidebarlistitem">
-                            <TrendingUp className="sidebaricon"/>
-                            Sales
-                        </li>
-                    </ul>
-                </div>
-                <div className="sidebarmenu">
-                    <h3 className="sidebartitle">Dashboard</h3>
-                    <ul className="sidebarlist">
-                        <li className="sidebarlistitem">
-                            <LineStyle className="sidebaricon" />
-                            home
+                            <ReportProblemOutlined className="sidebaricon"/>
+                            Report
                         </li>
                         <li className="sidebarlistitem">
-                            <Timeline className="sidebaricon"/>
-                            Analytics
-                        </li>
-                        <li className="sidebarlistitem">
-                            <TrendingUp className="sidebaricon"/>
-                            Sales
+                            <GroupAddOutlined className="sidebaricon"/>
+                            Sceheduled Meetings
                         </li>
                     </ul>
                 </div>
