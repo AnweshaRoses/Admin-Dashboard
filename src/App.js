@@ -9,6 +9,7 @@ import {
   Route,
 } from "react-router-dom";
 import User from "./pages/user/User";
+import NewUser from "./pages/newuser/NewUser";
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Route path="/" element={<Home/>}/ >
         <Route path="/users" element={<UserList/>}/ >
         <Route path="/user/:userId" element={<User/>}/ >
+        <Route path="/newuser" element={<NewUser/>}/ >
           
       </Routes>
       </div>

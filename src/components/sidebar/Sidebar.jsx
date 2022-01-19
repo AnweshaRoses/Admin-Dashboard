@@ -3,6 +3,7 @@ import {
 LineStyle, Timeline, TrendingUp,PersonOutline,ShoppingBasket,AttachMoney,Equalizer,AlternateEmailOutlined,MessageOutlined,SendOutlined,
 WhatsApp,HomeWorkOutlined,ReportProblemOutlined,GroupAddOutlined
 }from '@material-ui/icons';
+import { Link } from "react-router-dom";
 
 export default function Sidebar() {
     return (
@@ -11,10 +12,12 @@ export default function Sidebar() {
                 <div className="sidebarmenu">
                     <h3 className="sidebartitle">Dashboard</h3>
                     <ul className="sidebarlist">
+                        <Link to="/" className="link" >
                         <li className="sidebarlistitem">
                             <LineStyle className="sidebaricon" />
                             home
                         </li>
+                        </Link>
                         <li className="sidebarlistitem">
                             <Timeline className="sidebaricon"/>
                             Analytics
@@ -28,14 +31,18 @@ export default function Sidebar() {
                 <div className="sidebarmenu">
                     <h3 className="sidebartitle">Quick Menu</h3>
                     <ul className="sidebarlist">
+                        <Link to="/users" className="link">
                         <li className="sidebarlistitem">
                             <PersonOutline className="sidebaricon" />
                             Users
                         </li>
+                        </Link>
+                        <Link to="/products" className="link">
                         <li className="sidebarlistitem">
                             <ShoppingBasket className="sidebaricon"/>
                             Products
                         </li>
+                        </Link>
                         <li className="sidebarlistitem">
                             <AttachMoney className="sidebaricon"/>
                             Transactions
