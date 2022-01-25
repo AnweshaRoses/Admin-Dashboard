@@ -10,6 +10,7 @@ import {
 } from "react-router-dom";
 import User from "./pages/user/User";
 import NewUser from "./pages/newuser/NewUser";
+import Products from "./pages/products/Products";
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <Route path="/users" element={<UserList/>}/ >
         <Route path="/user/:userId" element={<User/>}/ >
         <Route path="/newuser" element={<NewUser/>}/ >
+        <Route path="/products" element={<Products/>}/ >
           
       </Routes>
       </div>
