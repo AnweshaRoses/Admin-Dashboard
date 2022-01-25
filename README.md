@@ -8,5 +8,5 @@ as add new users and edit them.
 
 ![](src/images/Head.jpg)
 ![App Screenshot](src/images/employee.jpg)
-![App Screenshot](src/images/edittemp.jpg)
+![](src/images/editemp.jpg)
 ![App Screenshot](src/images/sell.jpg)
