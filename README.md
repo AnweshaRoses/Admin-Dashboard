@@ -6,7 +6,7 @@ as add new users and edit them.
 
 ## Screenshots
 
-![](src/images/main.jpg)
+![](src/images/Head.jpg)
 ![App Screenshot](src/images/employee.jpg)
 ![App Screenshot](src/images/edittemp.jpg)
 ![App Screenshot](src/images/sell.jpg)
