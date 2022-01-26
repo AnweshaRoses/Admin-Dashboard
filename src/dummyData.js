@@ -49,6 +49,21 @@ export const userData = [
     },
 
   ];
+export const productData = [
+    {
+      name: 'Jan',
+      "Sales": 4000,
+    },
+    {
+      name: 'Feb',
+      "Sales": 3000,
+    },
+    {
+      name: 'March',
+      "Sales": 5000,
+    },
+
+  ];
 
 export const userRows = [
     { id: 1, username: 'Roses Snow', avatar:"https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80", email: "roses@hotmail.com",status:"active" , transaction:"$120.00"},
